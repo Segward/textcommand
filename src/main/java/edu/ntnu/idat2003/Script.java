@@ -1,6 +1,5 @@
 package edu.ntnu.idat2003;
 
-import edu.ntnu.idat2003.commands.TextCommand;
 import java.util.ArrayList;
 
 public class Script {
