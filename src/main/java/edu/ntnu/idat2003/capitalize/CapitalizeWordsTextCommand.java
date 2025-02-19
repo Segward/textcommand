@@ -1,8 +1,12 @@
 package edu.ntnu.idat2003.capitalize;
 
 public class CapitalizeWordsTextCommand extends CapitalizeTextCommand {
+
   @Override
   public String execute(String input) {
+    if (input == null || input.isBlank()) {
+      return input;
+    }
     String[] words = input.split(" ");
     StringBuilder sb = new StringBuilder();
     for (String word : words) {

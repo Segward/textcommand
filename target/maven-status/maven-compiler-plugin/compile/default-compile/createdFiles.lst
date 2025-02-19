@@ -1,2 +1,11 @@
+edu/ntnu/idat2003/capitalize/CapitalizeWordsTextCommand.class
+edu/ntnu/idat2003/TextCommand.class
 edu/ntnu/idat2003/Script.class
+edu/ntnu/idat2003/capitalize/CapitalizeTextCommand.class
+edu/ntnu/idat2003/wrap/WrapSelectionTextCommand.class
+edu/ntnu/idat2003/wrap/WrapTextCommand.class
 edu/ntnu/idat2003/App.class
+edu/ntnu/idat2003/replace/ReplaceTextCommand.class
+edu/ntnu/idat2003/capitalize/CapitalizeSelectionTextCommand.class
+edu/ntnu/idat2003/replace/ReplaceFirstTextCommand.class
+edu/ntnu/idat2003/wrap/WrapLinesTextCommand.class

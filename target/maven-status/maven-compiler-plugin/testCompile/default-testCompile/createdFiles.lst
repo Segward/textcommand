@@ -1,0 +1,9 @@
+edu/ntnu/idat2003/capitalize/CapitalizeSelectionCommandTest.class
+edu/ntnu/idat2003/wrap/WrapSelectionTextCommandTest.class
+edu/ntnu/idat2003/replace/ReplaceFirstTextCommandTest.class
+edu/ntnu/idat2003/wrap/WrapTextCommandTest.class
+edu/ntnu/idat2003/capitalize/CapitalizeWordsTextCommandTest.class
+edu/ntnu/idat2003/replace/ReplaceTextCommandTest.class
+edu/ntnu/idat2003/capitalize/CapitalizeTestCommandTest.class
+edu/ntnu/idat2003/wrap/WrapLinesTextCommandTest.class
+edu/ntnu/idat2003/ScriptTest.class
