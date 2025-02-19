@@ -1,1 +1,9 @@
 /Volumes/DiskName/Programming/textcommand/src/test/java/edu/ntnu/idat2003/ScriptTest.java
+/Volumes/DiskName/Programming/textcommand/src/test/java/edu/ntnu/idat2003/capitalize/CapitalizeSelectionCommandTest.java
+/Volumes/DiskName/Programming/textcommand/src/test/java/edu/ntnu/idat2003/capitalize/CapitalizeTestCommandTest.java
+/Volumes/DiskName/Programming/textcommand/src/test/java/edu/ntnu/idat2003/capitalize/CapitalizeWordsTextCommandTest.java
+/Volumes/DiskName/Programming/textcommand/src/test/java/edu/ntnu/idat2003/replace/ReplaceFirstTextCommandTest.java
+/Volumes/DiskName/Programming/textcommand/src/test/java/edu/ntnu/idat2003/replace/ReplaceTextCommandTest.java
+/Volumes/DiskName/Programming/textcommand/src/test/java/edu/ntnu/idat2003/wrap/WrapLinesTextCommandTest.java
+/Volumes/DiskName/Programming/textcommand/src/test/java/edu/ntnu/idat2003/wrap/WrapSelectionTextCommandTest.java
+/Volumes/DiskName/Programming/textcommand/src/test/java/edu/ntnu/idat2003/wrap/WrapTextCommandTest.java

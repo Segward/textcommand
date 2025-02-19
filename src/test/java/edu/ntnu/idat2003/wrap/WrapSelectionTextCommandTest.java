@@ -4,16 +4,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class WrapTextCommandTest {
+public class WrapSelectionTextCommandTest {
 
   @Test
   public void testExecute() {
-    // Create a WrapTextCommand
-    WrapTextCommand command = new WrapTextCommand("(", ")");
+    // Create a WrapSelectionTextCommand
+    WrapSelectionTextCommand command = new WrapSelectionTextCommand("(", ")","world");
 
-    // Execute the WrapTextCommand with a sample input
+    // Execute the WrapSelectionTextCommand with a sample input
     String input = "hello world";
-    String expectedOutput = "(hello world)";
+    String expectedOutput = "hello (world)";
     String actualOutput = command.execute(input);
 
     // Assert the output

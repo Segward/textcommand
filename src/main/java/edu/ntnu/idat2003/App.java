@@ -8,7 +8,6 @@ import edu.ntnu.idat2003.replace.ReplaceTextCommand;
 import edu.ntnu.idat2003.wrap.WrapLinesTextCommand;
 import edu.ntnu.idat2003.wrap.WrapSelectionTextCommand;
 import edu.ntnu.idat2003.wrap.WrapTextCommand;
-
 import java.util.ArrayList;
 
 public class App {

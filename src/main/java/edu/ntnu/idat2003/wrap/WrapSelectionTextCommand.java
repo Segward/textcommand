@@ -2,7 +2,7 @@ package edu.ntnu.idat2003.wrap;
 
 public class WrapSelectionTextCommand extends WrapTextCommand {
   private final String target;
-  
+
   public WrapSelectionTextCommand(String prefix, String suffix, String target) {
     super(prefix, suffix);
     this.target = target;

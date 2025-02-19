@@ -4,16 +4,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class CapitalizeSelectionCommandTest {
+public class CapitalizeWordsTextCommandTest {
 
   @Test
   public void testExecute() {
-    // Create a CapitalizeSelectionTextCommand
-    CapitalizeTextCommand command = new CapitalizeSelectionTextCommand("world");
+    // Create a CapitalizeWordsTextCommand
+    CapitalizeTextCommand command = new CapitalizeWordsTextCommand();
 
-    // Execute the CapitalizeSelectionTextCommand with a sample input
+    // Execute the CapitalizeWordsTextCommand with a sample input
     String input = "hello world";
-    String expectedOutput = "hello World";
+    String expectedOutput = "Hello World";
     String actualOutput = command.execute(input);
 
     // Assert the output

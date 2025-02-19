@@ -1,19 +1,19 @@
-package edu.ntnu.idat2003.wrap;
+package edu.ntnu.idat2003.capitalize;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class WrapTextCommandTest {
+public class CapitalizeTestCommandTest {
 
   @Test
   public void testExecute() {
-    // Create a WrapTextCommand
-    WrapTextCommand command = new WrapTextCommand("(", ")");
+    // Create a CapitalizeTextCommand
+    CapitalizeTextCommand command = new CapitalizeTextCommand();
 
-    // Execute the WrapTextCommand with a sample input
+    // Execute the CapitalizeTextCommand with a sample input
     String input = "hello world";
-    String expectedOutput = "(hello world)";
+    String expectedOutput = "Hello world";
     String actualOutput = command.execute(input);
 
     // Assert the output
