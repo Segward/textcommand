@@ -2,7 +2,7 @@ package edu.ntnu.idat2003.wrap;
 
 import edu.ntnu.idat2003.TextCommand;
 
-public class WrapTextCommand extends TextCommand {
+public class WrapTextCommand implements TextCommand {
   protected final String prefix;
   protected final String suffix;
 

@@ -2,7 +2,7 @@ package edu.ntnu.idat2003.replace;
 
 import edu.ntnu.idat2003.TextCommand;
 
-public class ReplaceTextCommand extends TextCommand {
+public class ReplaceTextCommand implements TextCommand {
   protected final String target;
   protected final String replacement;
 

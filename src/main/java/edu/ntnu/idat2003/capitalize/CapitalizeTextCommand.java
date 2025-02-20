@@ -4,7 +4,7 @@ import edu.ntnu.idat2003.TextCommand;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class CapitalizeTextCommand extends TextCommand {
+public class CapitalizeTextCommand implements TextCommand {
 
   @Override
   public String execute(String input) {
