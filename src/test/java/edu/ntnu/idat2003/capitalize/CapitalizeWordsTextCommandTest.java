@@ -1,8 +1,6 @@
 package edu.ntnu.idat2003.capitalize;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import java.lang.IllegalArgumentException;
 
 import org.junit.jupiter.api.Test;
 
