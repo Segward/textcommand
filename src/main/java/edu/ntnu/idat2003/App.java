@@ -12,11 +12,12 @@ import java.util.ArrayList;
 
 public class App {
   public static void main(String[] args) {
+    // Create a list of commands
     ArrayList<TextCommand> commands = new ArrayList<>();
     try {
       // Create a list of commands
-      ReplaceTextCommand command1 = new ReplaceTextCommand("Hello", "hi");
-      ReplaceFirstTextCommand command2 = new ReplaceFirstTextCommand("world", "universe");
+      ReplaceTextCommand command1 = new ReplaceTextCommand("hello", "hi");
+      ReplaceFirstTextCommand command2 = new ReplaceFirstTextCommand("love", "universe");
       WrapTextCommand command3 = new WrapTextCommand("#", "#");
       WrapSelectionTextCommand command4 = new WrapSelectionTextCommand("(", ")", "love");
       WrapLinesTextCommand command5 = new WrapLinesTextCommand("...", "...");
@@ -38,12 +39,13 @@ public class App {
       e.printStackTrace();
     }
 
+    // Create a script with the list of commands
     if (!commands.isEmpty()) {
       Script script = new Script(commands);
       script.execute(
-          "hello World, I love programming!\n"
+          "hello world, I love programming!\n"
               + " I also love omniscient reader's viewpoint.\n"
-              + " bye bye!");
+              + " bye bye my love, mi amor!");
     }
   }
 }
