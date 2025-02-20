@@ -21,7 +21,7 @@ public class WrapSelectionTextCommand extends WrapTextCommand {
     if (text == null || text.isBlank()) {
       return text;
     }
-    return text.replace(target, prefix + target + suffix);
+    return text.replaceAll(target, prefix + target + suffix);
   }
 
   public String getTarget() {

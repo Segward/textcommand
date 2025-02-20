@@ -15,7 +15,7 @@ public class CapitalizeSelectionTextCommand extends CapitalizeTextCommand {
     if (input == null || input.isBlank()) {
       return input;
     }
-    return input.replace(target, super.execute(target));
+    return input.replaceAll(target, super.execute(target));
   }
 
   public String getTarget() {

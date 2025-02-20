@@ -16,7 +16,7 @@ public class Script {
     if (text == null || text.isBlank()) {
       return text;
     }
-    System.out.println(text + "\n");
+    System.out.println("\n" + text + "\n");
     for (TextCommand command : commands) {
       text = command.execute(text);
       System.out.println(text + "\n");

@@ -11,8 +11,12 @@ public class CapitalizeTextCommand implements TextCommand {
     if (input == null || input.isEmpty()) {
       return input;
     }
+    
+    // Find the first letter in the string and capitalize it
     Pattern pattern = Pattern.compile("[a-zA-Z]");
     Matcher matcher = pattern.matcher(input);
+
+    // If a letter is found, capitalize it
     if (matcher.find()) {
       int index = matcher.start();
       return input.substring(0, index)
